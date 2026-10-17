@@ -9,8 +9,9 @@
 
 从 [GitHub Releases](https://github.com/Qikowali/resolve-font-doctor/releases) 下载：
 
-- `达芬奇字体管家.exe`：Windows 单文件 GUI
-- `达芬奇字体管家-v1.0.0-Windows.zip`：GUI + CLI + README + 截图
+- `ResolveFontDoctor.exe`：Windows 单文件 GUI
+- `ResolveFontDoctor-v1.0.0-Windows.zip`：GUI + CLI + README + 截图
+- `ResolveFontDoctor-CLI.exe`：命令行版，适合批处理
 
 也可以从源码运行，见下方“从源码运行 / 构建”。
 
