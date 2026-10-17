@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "resolve-font-doctor"
+version = "1.0.0"
+description = "Find and install fonts used by DaVinci Resolve presets"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Resolve Font Doctor" }]
+dependencies = []
+
+[project.gui-scripts]
+resolve-font-doctor = "resolve_font_doctor.gui:main"
+
+[project.scripts]
+resolve-font-doctor-cli = "resolve_font_doctor.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

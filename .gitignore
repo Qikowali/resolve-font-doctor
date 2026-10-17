@@ -1,0 +1,8 @@
+build/
+dist/
+*.spec
+__pycache__/
+*.py[cod]
+.venv/
+gui-shot*.png
+report-shot.png
